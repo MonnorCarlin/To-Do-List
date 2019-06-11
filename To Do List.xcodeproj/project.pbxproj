@@ -14,6 +14,7 @@
 		665FB2D922B0392A0005ECD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665FB2D722B0392A0005ECD2 /* LaunchScreen.storyboard */; };
 		665FB2E422B0392A0005ECD2 /* To_Do_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665FB2E322B0392A0005ECD2 /* To_Do_ListTests.swift */; };
 		665FB2EF22B0392B0005ECD2 /* To_Do_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665FB2EE22B0392B0005ECD2 /* To_Do_ListUITests.swift */; };
+		665FB2FD22B041AE0005ECD2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665FB2FC22B041AD0005ECD2 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		665FB2EA22B0392B0005ECD2 /* To Do ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To Do ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		665FB2EE22B0392B0005ECD2 /* To_Do_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListUITests.swift; sourceTree = "<group>"; };
 		665FB2F022B0392B0005ECD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665FB2FC22B041AD0005ECD2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				665FB2CE22B039270005ECD2 /* AppDelegate.swift */,
 				665FB2D022B039270005ECD2 /* ViewController.swift */,
+				665FB2FC22B041AD0005ECD2 /* DetailViewController.swift */,
 				665FB2D222B039270005ECD2 /* Main.storyboard */,
 				665FB2D522B0392A0005ECD2 /* Assets.xcassets */,
 				665FB2D722B0392A0005ECD2 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665FB2FD22B041AE0005ECD2 /* DetailViewController.swift in Sources */,
 				665FB2D122B039270005ECD2 /* ViewController.swift in Sources */,
 				665FB2CF22B039270005ECD2 /* AppDelegate.swift in Sources */,
 			);
