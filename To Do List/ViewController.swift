@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var editBarButton: UIBarButtonItem!
+    @IBOutlet weak var addBarButton: UIBarButtonItem!
     
     var toDoArray = ["Learn Swift", "Build Apps", "Change the World!"]
     
@@ -19,6 +21,10 @@ class ViewController: UIViewController {
         tableView.dataSource = self
     }
 
+    
+    @IBAction func editBarButtonPressed(_ sender: UIBarButtonItem) {
+        
+    }
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
